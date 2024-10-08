@@ -1,48 +1,16 @@
-﻿internal class Program
+﻿using System;
+
+class AdivinaElNumero
 {
-    bool jugarDeNuevo = true;
+    static void Main()
+    {
+        bool jugarDeNuevo = true;
 
+        while (jugarDeNuevo)
+        {
+            Console.Clear();
+            Console.WriteLine("¡Bienvenidos al juego de Adivina el Número!");
+            int numeroJugadores = ObtenerNumeroDeJugadores();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
 }
